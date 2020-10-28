@@ -33,6 +33,8 @@ h1{
     position: fixed;
     bottom: 0;
     right: 0;
+    text-align: center;
+    color:  #efab00;
 }
 #content{
     min-height: 80%;
