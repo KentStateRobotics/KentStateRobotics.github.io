@@ -21,7 +21,7 @@ h1{
     font-size: 40px;
     margin: 5px;
 }
-.exImg{
+#content > div, img{
     display: inline-block;
     max-width: 1000px;
     max-height: 500px;
