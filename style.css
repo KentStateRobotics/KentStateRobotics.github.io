@@ -17,6 +17,15 @@ body{
     position: relative;
     bottom: 25px;
 }
+h1{
+    font-size: 40px;
+    margin: 5px;
+}
+.exImg{
+    display: inline-block;
+    max-width: 1000px;
+    max-height: 500px;
+}
 #footer{
     background-color: #003976;
     width: 100%;
@@ -27,6 +36,7 @@ body{
 }
 #content{
     min-height: 80%;
+    padding: 0px 100px 0px 100px;
 }
 .yellowStrip{
     background-color: #efab00;
