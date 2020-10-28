@@ -5,6 +5,18 @@ body{
     background-color: #003976;
     width: 100%;
 }
+#header > *:not(.yellowStrip){
+    display: inline-block;
+}
+#header > img{
+    margin: 2px 0px 2px 0px;
+}
+#header > h1{
+    font-size: 30px;
+    color:  #efab00;
+    position: relative;
+    bottom: 25px;
+}
 #footer{
     background-color: #003976;
     width: 100%;
@@ -20,14 +32,15 @@ body{
     background-color: #efab00;
     height: 5px;
     width: 100%;
+    display: block;
 }
 .top{
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
 }
 .bottom{
-    position: fixed;
+    position: relative;
     bottom: 0;
     right: 0;
 }
